@@ -11,7 +11,7 @@ if __name__ == '__main__':
 
     qr_code = wifi_qrcode(wifi_name, False, 'WPA', wifi_pass)
 
-    breakpoint()
+    # breakpoint()
     # Save the image as PNG file
     qr_code.make_image().save("wifi.png")
     print(f"QR Code saved at: {Path('wifi.png').absolute()}")
