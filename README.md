@@ -14,6 +14,7 @@ python main.py
 
 # Enter Wifi APN: my_wifi
 # Enter password for 'my_wifi':
+# QR Code saved at: /absolute/file/path/wifi.png
 
 ```
 
